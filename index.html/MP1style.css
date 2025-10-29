@@ -1,0 +1,68 @@
+<style>
+body {
+  background-color: #F9F4EA;
+  text-align: center;
+  font-family: "Garamond", serif;
+  margin: 0;
+}
+
+h1, h2 {
+  color: #605F4B;
+  text-align: center;
+}
+.my-photo {
+  display: block;
+  margin: 20px auto;
+  width: 280px;
+  height: auto;
+  border-radius: 10px;
+}
+dl {
+  display: block;
+  margin: 20px auto;
+  text-align: left;
+  max-width: 400px;
+  background-color: #fffaf2;
+  padding: 20px;
+  border-radius: 10px;
+  line-height: 1.6;
+}
+dt {
+  font-weight: bold;
+  color: #605F4B;
+  margin-top: 10px;
+}
+dd { margin-left: 20px; color: #555; }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li { margin: 10px 0; }
+a {
+  color: #B34700;
+  text-decoration: none;
+  font-size: 18px;
+}
+a:hover { text-decoration: underline; }
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+  align-items: start;
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+  text-align: left;
+}
+.two-col .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.two-col .right dl {
+  margin: 0;
+}
+
+</style>
+
